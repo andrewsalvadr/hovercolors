@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  height: 16px;
+  width: 16px;
+  margin: 2px;
+  transition: 6s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.yellow:hover {
+  border: solid white;
+  border-width: 0.5px;
+}
+
+.blue {
+  background-color: blue;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.blue:hover {
+  border: solid white;
+  border-width: 0.5px;
+}
+
+.red {
+  background-color: red;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.red:hover {
+  border: solid white;
+  border-width: 0.5px;
+}
+
+.pink {
+  background-color: rgb(255, 14, 175);
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.pink:hover {
+  border: solid white;
+  border-width: 0.5px;
+}
+
+.green {
+  background-color: rgb(48, 211, 48);
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.green:hover {
+  border: solid white;
+  border-width: 0.5px;
+}
+
+.mixed {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.mixed:hover {
+  border: solid white;
+  border-width: 0.5px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  border: solid black;
+  border-width: 0.5px;
+  color: black;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border-width: 0.5px;
+}
